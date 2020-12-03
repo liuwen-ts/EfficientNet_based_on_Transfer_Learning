@@ -22,8 +22,10 @@ from keras.callbacks import ModelCheckpoint
 # Hyper parameters 超参数
 batch_size = 16
 
-width = 150
-height = 150
+# width = 150
+# height = 150
+width = 224
+height = 224
 epochs = 100
 NUM_TRAIN = 2000
 NUM_TEST = 1000
